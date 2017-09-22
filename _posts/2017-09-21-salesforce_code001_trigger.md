@@ -8,9 +8,9 @@ photos:
 
 
 
-# Highlight block
+# trigger
 
-```javascript
+```apex
 trigger HelloWorldTrigger on Account (before insert) {
      for(Account a : Trigger.New) {
           a.Description = 'New description';

@@ -2,6 +2,63 @@
 <search>
   
     <entry>
+      <title><![CDATA[salesforce_code_001_trigger]]></title>
+      <url>/salesforce/2017/09/21/salesforce_code001_trigger/</url>
+      <content type="html"><![CDATA[<h1 id="highlight-block">Highlight block</h1>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">trigger</span> <span class="nx">HelloWorldTrigger</span> <span class="nx">on</span> <span class="nx">Account</span> <span class="p">(</span><span class="nx">before</span> <span class="nx">insert</span><span class="p">)</span> <span class="p">{</span>
+     <span class="k">for</span><span class="p">(</span><span class="nx">Account</span> <span class="nx">a</span> <span class="err">:</span> <span class="nx">Trigger</span><span class="p">.</span><span class="nx">New</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">a</span><span class="p">.</span><span class="nx">Description</span> <span class="o">=</span> <span class="s1">'New description'</span><span class="p">;</span>
+     <span class="p">}</span>  
+<span class="p">}</span>  
+</code></pre>
+</div>
+]]></content>
+      <categories>
+        
+          <category> salesforce </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> salesforce </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
+      <title><![CDATA[salesforce_基础_002_データアクセス]]></title>
+      <url>/salesforce/2017/09/19/salesforce_%E5%9F%BA%E7%A1%80_002_%E3%83%87%E3%83%BC%E3%82%BF%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/</url>
+      <content type="html"><![CDATA[<p>組織全体、特定のオブジェクト、特定の項目、または個々のレコードのどのデータにどのユーザがアクセスできるかを制御できます。</p>
+
+<p>-組織
+-オブジェクト
+-項目
+-レコード</p>
+
+<p>プロファイルを使用したアクセスの制限
+  標準プロファイル:
+    参照のみ
+    標準ユーザ
+    マーケティングユーザ
+    契約管理者
+    システム管理者</p>
+]]></content>
+      <categories>
+        
+          <category> salesforce </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> salesforce </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
       <title><![CDATA[salesforce_基础_000]]></title>
       <url>/salesforce/2017/09/17/salesforce_%E5%9F%BA%E7%A1%80_000/</url>
       <content type="html"><![CDATA[<p>Customer Relationship Management（CRM）客户关系管理</p>
